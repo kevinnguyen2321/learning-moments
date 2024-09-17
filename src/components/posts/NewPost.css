@@ -1,0 +1,78 @@
+.new-form-wrapper {
+  box-shadow: rgba(146, 141, 141, 0.253) 0px 5px 15px;
+  border-radius: 15px;
+  width: 30%;
+  font-size: 2.2rem;
+  margin: 150px auto 0 auto;
+  padding: 18px 30px 18px 30px;
+}
+
+.new-form-wrapper h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.control-wrapper {
+  /* border: dotted black; */
+  display: flex;
+}
+
+.topic {
+  gap: 15px;
+}
+
+.title {
+  gap: 28px;
+}
+
+.title-input {
+  width: 50%;
+}
+
+.title-input,
+select,
+textarea {
+  margin-bottom: 12px;
+  margin-top: 5px;
+}
+
+.body {
+  gap: 19px;
+}
+
+textarea {
+  font-family: inherit;
+  color: inherit;
+  height: auto;
+  outline: none;
+  border-radius: 8px;
+  width: 340px;
+  height: 170px;
+}
+
+select,
+.title-input,
+textarea {
+  font-size: 1.2rem;
+}
+
+.btn-wrapper {
+  /* border: solid black; */
+  display: flex;
+  justify-content: center;
+}
+
+.new-form-wrapper .btn-wrapper button {
+  font-size: 1.8rem;
+  font-family: inherit;
+  border: none;
+  padding: 8px 15px 8px 15px;
+  border-radius: 8px;
+  background-color: rgb(77, 216, 77);
+  color: white;
+}
+
+.new-form-wrapper .btn-wrapper button:hover {
+  background-color: rgb(72, 185, 72);
+  cursor: pointer;
+}

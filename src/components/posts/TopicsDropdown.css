@@ -1,0 +1,38 @@
+/* Container style for the dropdown */
+
+.topics-dropdown {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  outline: none;
+  cursor: pointer;
+  appearance: none; /* This removes the default dropdown arrow */
+  position: relative;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140"><path d="M0 0 L70 70 L140 0" fill="none" stroke="%23333" stroke-width="15"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 15px center; /* Position the arrow to the right */
+  background-size: 10px;
+  margin-top: 6px;
+}
+
+/* Style for the options */
+.topics-dropdown option {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Focus and Hover effects */
+.topics-dropdown:focus {
+  border-color: #a8a8a8;
+  box-shadow: 0 4px 12px rgba(175, 179, 184, 0.4);
+}
+
+.topics-dropdown:hover {
+  border-color: #a8a8a8;
+}

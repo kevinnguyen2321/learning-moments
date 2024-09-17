@@ -1,0 +1,49 @@
+.mypost-wrapper {
+  margin: 150px auto 0 auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.my-post a {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-decoration: none;
+  font-weight: normal;
+  color: inherit;
+}
+
+.my-post a:hover {
+  color: blue;
+}
+
+.delete-btn {
+  font-size: 1.8rem;
+  font-family: inherit;
+  border: none;
+  padding: 8px 12px 8px 12px;
+  border-radius: 8px;
+  background-color: red;
+  color: whitesmoke;
+}
+
+.delete-btn:hover {
+  background-color: rgba(255, 0, 0, 0.616);
+  cursor: pointer;
+}
+
+.my-post {
+  box-shadow: rgba(146, 141, 141, 0.253) 0px 5px 15px;
+  padding: 8px;
+  border-radius: 15px;
+  width: 442px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  margin-top: 15px;
+  margin-left: 25px;
+}

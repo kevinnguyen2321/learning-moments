@@ -1,0 +1,42 @@
+.edit-form-wrapper {
+  box-shadow: rgba(146, 141, 141, 0.253) 0px 5px 15px;
+  border-radius: 15px;
+  width: 30%;
+  font-size: 2.2rem;
+  margin: 150px auto 0 auto;
+  padding: 18px 30px 18px 30px;
+}
+
+.topic-wrapper,
+.title-wrapper,
+.body-wrapper {
+  display: flex;
+  border: solid black;
+}
+
+.topic-wrapper {
+  gap: 12px;
+}
+
+.title-wrapper {
+  gap: 28px;
+}
+
+.body-wrapper {
+  gap: 16px;
+}
+
+.edit-form-wrapper .btn-wrapper button {
+  font-size: 1.8rem;
+  font-family: inherit;
+  border: none;
+  padding: 8px 15px 8px 15px;
+  border-radius: 8px;
+  background-color: rgb(77, 216, 77);
+  color: white;
+}
+
+.edit-form-wrapper .btn-wrapper button:hover {
+  background-color: rgb(72, 185, 72);
+  cursor: pointer;
+}

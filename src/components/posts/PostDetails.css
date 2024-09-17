@@ -1,0 +1,60 @@
+.post-details {
+  box-shadow: rgba(146, 141, 141, 0.253) 0px 5px 15px;
+  border-radius: 15px;
+  width: 30%;
+  font-size: 2rem;
+  margin: 200px auto 0 auto;
+  padding: 18px 22px 18px 22px;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px;
+}
+
+.btn-wrapper button {
+  font-size: 1.8rem;
+  font-family: inherit;
+  border: none;
+  padding: 8px 12px 8px 12px;
+  border-radius: 8px;
+}
+
+.like-btn {
+  background-color: rgba(207, 203, 203, 0.452);
+  color: rgb(139, 150, 247);
+}
+
+.like-btn:hover {
+  background-color: rgba(207, 203, 203, 0.884);
+  cursor: pointer;
+}
+
+.liked {
+  background-color: blue;
+  color: white;
+  cursor: not-allowed;
+}
+
+.edit-btn {
+  background-color: orange;
+  color: whitesmoke;
+}
+
+.edit-btn:hover {
+  background-color: rgb(241, 139, 55);
+  cursor: pointer;
+}
+
+.author-link {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-decoration: none;
+  font-weight: normal;
+  color: inherit;
+}
+
+.author-link:hover {
+  color: blue;
+}
