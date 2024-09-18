@@ -19,7 +19,7 @@ export const TopicsDropdown = ({ setSelectedTopic }) => {
       className="topics-dropdown"
       onChange={handleChange}
     >
-      <option value="">--Please choose a topic--</option>
+      <option value="">--All Topics--</option>
       {topics.map((topic) => {
         return (
           <option value={topic.id} key={topic.id}>

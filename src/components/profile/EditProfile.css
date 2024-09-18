@@ -1,0 +1,40 @@
+.name-wrapper {
+  /* border: solid black; */
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.cohort-wrapper,
+.name-wrapper {
+  font-size: 2.3rem;
+}
+
+.name-wrapper input,
+.cohort-wrapper input {
+  margin-left: 5px;
+  font-size: 2rem;
+  padding: 8px;
+  border-radius: 12px;
+  outline: none;
+  border: 1px rgb(17, 26, 39) solid;
+}
+
+.name-wrapper input {
+  width: 65%;
+}
+
+.cohort-wrapper input {
+  width: 18%;
+}
+
+.save-btn {
+  background-color: rgb(77, 216, 77);
+  color: white;
+}
+
+.save-btn:hover {
+  background-color: rgb(72, 185, 72);
+  cursor: pointer;
+}
